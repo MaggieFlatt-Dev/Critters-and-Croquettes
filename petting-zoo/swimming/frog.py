@@ -1,3 +1,5 @@
+from swimming.pond import Pond
+
 class Frog(Pond):
 
    def __init__(self, name, species):

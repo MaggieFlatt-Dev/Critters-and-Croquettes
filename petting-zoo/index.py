@@ -1,31 +1,3 @@
-# Classy Critters Collection 
-# Create 15 classes for representing critters from Bobby's Petting Zoo
-from datetime import date
-
-class Animal:
-
-  def __init__(self, name, species):
-    self.name = name
-    self.species = species
-    self.date_added = date.today()
-
-class PettingArea(Animal):
-
-  def __init__(self, name, species):
-    super().__init__(name, species)
-    self.walking = True
-
-class GlassTank(Animal):
-
-   def __init__(self, name, species):
-    super().__init__(name, species)
-    self.slithering = True
-
-class Pond(Animal):
-
-   def __init__(self, name, species):
-    super().__init__(name, species)
-    self.swimming = True
 
 # Create 1 instance for each class
 donkey = Donkey("donkey", "mammal")

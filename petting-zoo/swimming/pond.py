@@ -1,7 +1,7 @@
-from swimming.pond import Pond
+from animal import Animal
 
-class Turtle(Pond):
+class Pond(Animal):
 
    def __init__(self, name, species):
     super().__init__(name, species)
-    self.area = "Pond"
+    self.swimming = True

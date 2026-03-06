@@ -1,3 +1,5 @@
+from walking.petting_area import PettingArea
+
 class Sheep(PettingArea):
 
    def __init__(self, name, species):

@@ -1,3 +1,5 @@
+from slithering.glass_tank import GlassTank
+
 class Boa(GlassTank):
 
    def __init__(self, name, species):

@@ -1,3 +1,4 @@
+from slithering.glass_tank import GlassTank
 
 class Chameleon(GlassTank):
 
