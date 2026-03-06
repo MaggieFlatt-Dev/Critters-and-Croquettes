@@ -14,4 +14,3 @@ python3 index.py
 - Walking (Petting Area)
 - Swimming (Pond)
 - Slithering (Glass Tank)
-- 
