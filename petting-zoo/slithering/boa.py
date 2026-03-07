@@ -1,0 +1,10 @@
+from slithering.glass_tank import GlassTank
+
+class Boa(GlassTank):
+
+   def __init__(self, name, species):
+    super().__init__(name, species)
+    self.area = "Glass Tank"
+
+   def __str__(self):
+      return f"{self.name} is a {self.species}"
