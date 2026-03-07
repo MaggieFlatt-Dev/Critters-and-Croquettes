@@ -4,12 +4,19 @@ from swimming import Frog, Goldfish, Mallard, Newt, Turtle
 from walking import Donkey, Goat, Llama, Pig, Sheep
 
 
-donkey = Donkey("donkey", "mammal", "midday")
+miss_fuzz = Llama("Miss Fuzz", "mammal", "morning", "Llama Chow")
+miss_fuzz.feed()
+
+donkey = Donkey("donkey", "mammal", "midday", "carrots")
+donkey.feed()
 print(f"{donkey.name} the {donkey.species} is available to pet during the {donkey.shift} shift.")
-# miss_fuzz = Llama("Miss Fuzz", "mammal", "morning")
-# babe = Pig("Babe", "mammal", "afternoon")
-# carl = Sheep("Carl", "mammal", "morning")
-# robert = Goat("Robert", "mammal", "afternoon")
+babe = Pig("Babe", "mammal", "afternoon", "Corn Feed")
+babe.feed()
+carl = Sheep("Carl", "mammal", "morning", "Clover")
+carl.feed()
+robert = Goat("Robert", "mammal", "afternoon", "Alfalfa")
+robert.feed()
+
 # goldie = Goldfish("Goldie", "fish")
 # mark = Mallard("Mark", "fowl")
 # hopalong = Frog("Hopalong", "amphibian")
